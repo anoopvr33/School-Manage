@@ -1,0 +1,23 @@
+.man-h1 {
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  color: rgb(255, 255, 255);
+}
+.ad-lib-form {
+  padding-top: 100px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 200px;
+  padding-right: 200px;
+  background-color: rgb(101, 109, 139);
+}
+
+.lib-logout {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}

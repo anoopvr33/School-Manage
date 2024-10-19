@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "init": "^0.1.2",
+    "jwt-token": "^1.0.9",
+    "mongoose": "^8.7.0",
+    "node": "^20.18.0",
+    "nodemon": "^3.1.7"
+  }
+}

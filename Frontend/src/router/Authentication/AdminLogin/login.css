@@ -1,0 +1,44 @@
+.admin-login {
+  width: 100%;
+  background-color: rgb(51, 69, 95);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("../../../assets/admin123.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 40px;
+}
+
+.admin-card {
+  margin: auto;
+  margin-right: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 350px;
+  height: 300px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+.admin-card input {
+  width: 270px;
+  padding-left: 10px;
+  height: 35px;
+  border-radius: 7px;
+  border: 2px solid rgb(57, 80, 118);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* box-shadow: 4px 4px 7px 0.5px rgb(207, 206, 206); */
+}
+
+.btn369-btn {
+  background-color: rgb(61, 78, 113);
+  color: rgb(255, 255, 255);
+}
+
+.adlog-h1 {
+  color: rgb(49, 67, 97);
+}

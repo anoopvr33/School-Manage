@@ -1,0 +1,15 @@
+.btn4-btn {
+  background-color: rgb(207, 208, 209);
+  width: 270px;
+}
+
+.staff-login {
+  width: 100%;
+  background-color: rgb(88, 84, 121);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("../../../assets/office-scenes-composition-with-female-employee-assigning-work-tasks-coworkers.png");
+  background-repeat: no-repeat;
+  background-size: 950px;
+}

@@ -1,0 +1,69 @@
+.first-page {
+  background-color: #284a67;
+  background-image: url("../../../assets/school88.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 40vh 30vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-bottom: 150px;
+}
+.f1-container {
+  border: 2px solid white;
+  width: 350px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(93, 124, 167, 0),
+    rgba(93, 124, 167, 0.005)
+  );
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 90px;
+  /* background-color: linear gradient from rgb(203, 18, 18) to rgb(4, 255, 58); */
+}
+.f1-container p {
+  color: white;
+}
+.f1-container button {
+  width: 270px;
+  background-color: #fffffff5;
+  border: none;
+  color: rgb(11, 10, 10);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+
+  font-weight: 700;
+}
+
+.first-page i {
+  color: #fffffff5;
+  font-size: 150px;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .first-page i {
+    animation: logo-spin infinite 3s linear;
+  }
+}

@@ -1,0 +1,46 @@
+.add-card {
+  width: 135%;
+  height: 90vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 30px;
+  gap: 20px;
+  background-color: rgb(255, 255, 255);
+  /* margin-right: 120px; */
+  border-radius: 20px;
+}
+
+.ad2-h1 {
+  font-size: 54px;
+  color: rgb(46, 66, 92);
+}
+
+.addlib-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  margin: auto;
+  margin-top: 15%;
+  align-items: center;
+}
+
+.addlib-content input {
+  width: 270px;
+  padding-left: 10px;
+  height: 35px;
+  border-radius: 7px;
+  border: 2px solid rgb(57, 80, 118);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* box-shadow: 4px 4px 7px 0.5px rgb(207, 206, 206); */
+}
+
+.addlib-btn {
+  width: 150px;
+  /* margin-top: 100%; */
+  margin-left: 220%;
+  background-color: rgb(66, 84, 119);
+  color: white;
+}
