@@ -1,0 +1,32 @@
+.borrow-list {
+  /* margin-top: 0px; */
+  background-color: rgb(213, 213, 213);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+.borrow-h2 {
+  color: rgb(234, 233, 233);
+  padding-bottom: 30px;
+}
+
+.no-data4 {
+  width: 450px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.display548-delete {
+  padding: 30px;
+  width: 350px;
+  /* height: 200px; */
+  position: fixed;
+  margin-top: -90px;
+  margin-left: 29%;
+  color: rgb(54, 70, 105);
+  background-color: white;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgba(191, 190, 190, 0.773);
+  /* -1px -1px 10px 10px rgba(198, 197, 197, 0.241); */
+  border-radius: 20px;
+}

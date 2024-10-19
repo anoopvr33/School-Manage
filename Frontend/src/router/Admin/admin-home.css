@@ -1,0 +1,36 @@
+.admin-home {
+  margin: auto;
+  margin-top: 13%;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lib-card {
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  display: grid;
+  place-items: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.off-card {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(189, 168, 139);
+  display: grid;
+  place-items: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+.student12-card {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(143, 128, 108);
+  display: grid;
+  place-items: center;
+  font-size: 33px;
+  font-weight: bold;
+}
